@@ -14,7 +14,8 @@ pipeline {
     //NEXUS_REPOSITORY = "maven_project"
     //NEXUS_REPO_ID    = "maven_project"
     //ARTVERSION = "${env.BUILD_ID}"
-  }
+  }     
+    
   tools {
     maven 'localMaven'
     jdk 'localJdk'
